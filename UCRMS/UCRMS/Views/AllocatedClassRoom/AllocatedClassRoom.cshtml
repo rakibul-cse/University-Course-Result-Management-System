@@ -1,0 +1,105 @@
+﻿@model UCRMS.Models.RoomAllocate
+@{
+    ViewBag.Title = "AllocatedClassRoom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success alert-dismissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> Record is/are save Successfully ..
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="thumbnail"><legend>Allowcate Class Room</legend>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Department</label>
+                    </div>
+                    <div class="col-md-8">
+                       @Html.DropDownListFor(c => c.Department, ViewBag.DpList as IEnumerable<SelectListItem>, "Select..", new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Course</label>
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownListFor(c => c.CourseID, ViewBag.SmList as IEnumerable<SelectListItem>, "Select..", new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Room No.</label>
+                    </div>
+                    <div class="col-md-8">
+                        <select class="form-control">
+                            <option>Select day</option>
+                            <option>Room-101</option>
+                            <option>Room-104</option>
+                            <option>Room-203</option>
+                            <option>Room-403</option>
+                            <option>Room-408</option>
+                            <option>Room-307</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Day</label>
+                    </div>
+                    <div class="col-md-8">
+                        <select class="form-control">
+                            <option>Select day</option>
+                            <option>Sunday</option>
+                            <option>Monday</option>
+                            <option>Tuesday</option>
+                            <option>Wednessday</option>
+                            <option>Thusday</option>
+                            <option>Friday</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">From</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control"/>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="checkbox-inline">
+                            <input type="radio" name="dateTime" class="" /> AM
+                            <input type="radio" name="dateTime" /> PM
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">To</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="checkbox-inline">
+                            <input type="radio" name="dateTime" class="" /> AM
+                            <input type="radio" name="dateTime" /> PM
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        
+                    </div>
+                    <div class="col-md-8">
+                        <button type="submit" class="btn btn-md btn-primary pull-right">Allowcate <i class="fa fa-share"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,78 @@
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\UCRMS.dll.config
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\UCRMS.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\UCRMS.pdb
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\Antlr3.Runtime.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\Microsoft.Web.Infrastructure.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\Newtonsoft.Json.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.Helpers.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.Mvc.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.Optimization.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.Razor.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.WebPages.Deployment.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.WebPages.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.WebPages.Razor.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\WebGrease.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.Helpers.xml
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.Mvc.xml
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.Optimization.xml
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.Razor.xml
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.WebPages.xml
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.WebPages.Deployment.xml
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\System.Web.WebPages.Razor.xml
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\Newtonsoft.Json.xml
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\bin\Antlr3.Runtime.pdb
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\obj\Debug\UCRMS.csprojResolveAssemblyReference.cache
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\obj\Debug\UCRMS.dll
+D:\BITM\University Course & Result Management System\UCRMS\UCRMS\obj\Debug\UCRMS.pdb
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\UCRMS.dll.config
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\UCRMS.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\UCRMS.pdb
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\Antlr3.Runtime.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\Newtonsoft.Json.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.Helpers.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.Mvc.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.Optimization.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.Razor.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.WebPages.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\WebGrease.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.Helpers.xml
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.Mvc.xml
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.Optimization.xml
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.Razor.xml
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.WebPages.xml
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\Newtonsoft.Json.xml
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\bin\Antlr3.Runtime.pdb
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\obj\Debug\UCRMS.dll
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\obj\Debug\UCRMS.pdb
+C:\Users\sojal\Desktop\Work-ASP\Final Presentation\UCRMS\UCRMS\obj\Debug\UCRMS.csprojResolveAssemblyReference.cache
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\UCRMS.dll.config
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\UCRMS.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\UCRMS.pdb
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\Antlr3.Runtime.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\Microsoft.Web.Infrastructure.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\Newtonsoft.Json.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.Helpers.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.Mvc.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.Optimization.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.Razor.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.WebPages.Deployment.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.WebPages.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.WebPages.Razor.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\WebGrease.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.Helpers.xml
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.Mvc.xml
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.Optimization.xml
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.Razor.xml
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.WebPages.xml
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.WebPages.Deployment.xml
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\System.Web.WebPages.Razor.xml
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\Newtonsoft.Json.xml
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\bin\Antlr3.Runtime.pdb
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\obj\Debug\UCRMS.csprojResolveAssemblyReference.cache
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\obj\Debug\UCRMS.dll
+D:\BITM\University Course & Result Management System\Update Sojol\Final-UCMS-15-02-2017\Final-UCMS-15-02-2017\UCRMS\UCRMS\obj\Debug\UCRMS.pdb

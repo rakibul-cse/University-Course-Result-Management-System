@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewBag.Title = "Teacher";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (ViewBag.Message != null)
+    {
+        <div class="alert alert-success alert-dismissable">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Success!</strong> Record is/are save Successfully ..
+        </div>
+    }
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="thumbnail">
+            <legend>Save Teacher</legend>
+            <form class="form-horizontal" method="POST">                
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Name</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" name="TeacherName" class="form-control" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Address</label>
+                    </div>
+                    <div class="col-md-8">
+                        <textarea class="form-control" rows="3" name="Address"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Email</label>
+                    </div>
+                    <div class="col-md-8">
+                        
+                        <input type="text" name="Email" class="form-control" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Contract No</label>
+                    </div>
+                    <div class="col-md-8">
+
+                        <input type="text" name="ContractNo" class="form-control" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Designation</label>
+                    </div>
+                    <div class="col-md-8">
+                        <select class="form-control" id="DesignationID" name="Designation">
+                            <option value=""></option>
+                            <option value="1">Professor</option>
+                            <option value="2">Ast.Professor</option>
+                            <option value="3">Lectaturer</option>                            
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Deparment</label>
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownList("DeptID", ViewBag.DpList as IEnumerable<SelectListItem>, "Select..", new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Credit to be Taken</label>
+                    </div>
+                    <div class="col-md-8">
+
+                        <input type="text" name="CreditTaken" class="form-control" required />
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-md-4">
+
+                    </div>
+                    <div class="col-md-8">
+                        <button type="submit" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-floppy-disk">Submit</i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="thumbnail">
+            <legend>View Teacher Information</legend>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead class="bg-primary">
+                        <tr>
+                            <th>Teacher Name</th>
+                            <th>Address</th>
+                            <th>Email</th>
+                            <th>Contract No</th>
+                            <th>Department</th>
+                            <th>Credit Taken</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (UCRMS.Models.Teacher ateh in ViewBag.TeacherList)
+                        {
+                            <tr>
+                                <td>@ateh.Name</td>
+                                <td>@ateh.Address</td>
+                                <td>@ateh.Email</td>
+                                <td>@ateh.ContractNo</td>
+                                <td>@ateh.Department</td>
+                                <td>@ateh.CreditTaken</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

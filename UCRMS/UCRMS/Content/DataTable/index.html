@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Data table</title>
+	
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="datatables/dataTables.bootstrap.css">
+	<script src="datatables/jquery.dataTables.min.js"></script>
+	<script src="datatables/dataTables.bootstrap.min.js"></script>
+</head>
+<body>
+	<table  id="example1" border="1">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>A</td>
+				<td>22</td>
+				<td>20/11/2016</td>
+			</tr>
+			<tr>
+				<td>B</td>
+				<td>23</td>
+				<td>20/11/2016</td>
+			</tr>
+			<tr>
+				<td>C</td>
+				<td>24</td>
+				<td>20/11/2016</td>
+			</tr>
+			<tr>
+				<td>D</td>
+				<td>25</td>
+				<td>20/11/2016</td>
+			</tr>
+			<tr>
+				<td>E</td>
+				<td>26</td>
+				<td>20/11/2016</td>
+			</tr>
+		</tbody>
+	</table>
+<script>
+  $(function () {
+    $("#example1").DataTable();
+  });
+</script>
+</body>
+</html>

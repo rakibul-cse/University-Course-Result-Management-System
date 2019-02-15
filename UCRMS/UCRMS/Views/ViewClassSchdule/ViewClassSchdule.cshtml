@@ -1,0 +1,24 @@
+﻿  
+@{
+    ViewBag.Title = "ViewClassSchdule";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="thumbnail">
+            <legend>View Allowcate Class Room</legend>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Department</label>
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownListFor(c => c.Department, ViewBag.DpList as IEnumerable<SelectListItem>, "Select..", new { @class = "form-control" })
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,119 @@
+﻿@using UCRMS.Models
+@model UCRMS.Models.CourseAssign
+@{
+    ViewBag.Title = "CourseAssign";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ @if (ViewBag.Message != null)
+{
+    <div class="alert alert-success alert-dismissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> Record is/are save Successfully ..
+    </div>
+}
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="thumbnail">
+            <legend>Course Assign to Teacher</legend>
+            <form class="form-horizontal" method="POST">
+                <div class="form-group">
+                    <div class="col-md-4">
+                        @Html.LabelFor(c=>c.Department)
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownListFor(c=>c.Department, ViewBag.DpList as IEnumerable<SelectListItem>, "Select..", new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        @Html.LabelFor(c=>c.Teacher)
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownListFor(c=>c.Teacher, ViewBag.TherList as IEnumerable<SelectListItem>, "Select..", new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        @Html.LabelFor(c=>c.CreditTaken)
+                    </div>
+                    <div class="col-md-8">
+                        @Html.TextBoxFor(c => c.CreditTaken, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        @Html.LabelFor(c=>c.RemainCredit)
+                    </div>
+                    <div class="col-md-8">
+                       @Html.TextBoxFor(c => c.RemainCredit, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label">Course Code</label>
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownListFor(c=>c.CourseID, ViewBag.SmList as IEnumerable<SelectListItem>, "Select..", new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        @Html.LabelFor(c => c.CourseName)
+                    </div>
+                    <div class="col-md-8">
+                        @Html.TextBoxFor(c => c.CourseName, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        @Html.LabelFor(c => c.Credit)
+                    </div>
+                    <div class="col-md-8">
+                        @Html.TextBoxFor(c => c.Credit, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+
+                    </div>
+                    <div class="col-md-8">
+                        <button type="submit" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-floppy-disk">Assign</i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="thumbnail">
+            <legend>View All Course Assaign</legend>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead class="bg-primary">
+                        <tr>
+                            <th>Department</th>
+                            <th>Semester</th>
+                            <th>Course</th>
+                            <th>Credit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (CourseAssign courseAssign in ViewBag.TeacherList)
+                        {
+                            <tr>
+                                <td>@courseAssign.Department</td>
+                                <td>@courseAssign.Teacher</td>
+                                <td>@courseAssign.CourseID</td>
+                                <td>@courseAssign.Credit</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
